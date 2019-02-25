@@ -5,7 +5,7 @@
 This is my graduate project for [DLSchool](https://www.dlschool.org).
 It is a demo-server where you can make predictions of specific classes by neural detector YoloV3.
 Image as input, return the same image with detection boxes on it.
-
+![alt text](https://i.ytimg.com/vi/BNHJRRUKMa4/maxresdefault.jpg)
 
 ## Installation
 
