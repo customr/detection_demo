@@ -1,5 +1,3 @@
-rm run.bat
-rm install.bat
 python3 -m venv flask_env
 source flask_env/bin/activate
 pip3 install -r requirements.txt
