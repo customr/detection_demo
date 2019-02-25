@@ -12,9 +12,9 @@ Image as input, return the same image with detection boxes on it.
 First of all you must be in directory, where this repository does. 
 
 ### For Windows users:
-
+Run in cmd:
 ```
-Run install.bat
+install.bat
 ```
 
 ### For Linux users:
@@ -31,8 +31,10 @@ If you complete installation above, you do not need to relauch this code everyti
 
 ### For Windows users:
 
-Run run.bat
-
+Run in cmd:
+```
+run.bat
+```
 ### For Linux users:
 
 ```
