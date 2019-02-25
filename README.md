@@ -7,26 +7,24 @@ It is a demo-server where you can make predictions of specific classes by neural
 Image as input, return the same image with detection boxes on it.
 ![alt text](https://i.ytimg.com/vi/BNHJRRUKMa4/maxresdefault.jpg)
 
-# Installation
+## Installation
 
 First of all you must be in directory, where this repository does. 
 
 ### For Linux users:
 
-Type in terminal:
 ```
 bash /your/path/to/detection_demo/install.sh
 ```
 
 That's all what you need for server installation. From this moment you can go to the local server **127.0.0.1:5000** and check detector by yourself!
 
-# Usage
+## Usage
 
 If you complete installation above, you do not need to relauch this code everytime. Installed server can be started like that:
 
 ### For Linux users:
 
-Type in terminal:
 ```
 bash your/path/to/detection_demo/run.sh
 ```
