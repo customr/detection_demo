@@ -1,0 +1,38 @@
+body {
+  max-width: 1050px;
+  margin: 0 auto;
+  padding: 1em;
+  font-family: 'Trebuchet MS', Arial, sans-serif;
+  font-size: 1.3em;
+  line-height: 1em;
+  background: #566;
+  color: #fff;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+a {
+  color: #ff6;
+  text-decoration: none;
+}
+
+h1 {
+  line-height: 1em;
+}
+
+form {
+  color: #fdd;
+}
+
+@media (min-width: 481px) {
+  #navigation {
+    color: orange;
+    list-style: none;
+    padding: 0;
+  }
+  #navigation li {
+    display: inline-block;
+  }
+  #navigation li:not(:first-child):before {
+    content: '| ';
+  }
+}

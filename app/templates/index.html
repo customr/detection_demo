@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Detection_YoloV3</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='css/index.css')}}"/>
+    <link rel="shortcut icon" href="https://avatars3.githubusercontent.com/u/41927172?s=400&v=4" type="image/jpg">
+  </head>
+  <body>
+    <h1>Project: detection_demo</h1>
+    <p>
+      Graduation project for <a href='https://www.dlschool.org'>DLSchool</a> by <a href='https://vk.com/mshipits'>this student</a>.
+      This is a class detection powered by <strong>YoloV3</strong>.
+    </p>
+    <ul id="navigation">
+      <li>
+        <a href="https://vk.com/mshipits"
+          >VK</a
+        >
+      </li>
+      <li>
+        <a href="https://github.com/akozd/tensorflow_yolo_v3"
+          >YoloV3 source</a
+        >
+      </li>
+      <li>
+        <a>shipicin_max@mail.ru</a>
+      </li>
+      <li>
+        <a>Canvas name: max_ship</a>
+      </li>
+      <li>
+        <a>Slack name: moks</a>
+      </li>
+    </ul>
+    <h2>Select an image to detect</h2>
+    <form id='upload' method='POST' enctype='multipart/form-data'>  
+      {{ form.hidden_tag() }}
+      {{ form.photo }}
+      {% for error in form.photo.errors %}
+        <span style="color: red;">{{ error }}</span>
+      {% endfor %}
+      {{ form.submit }}
+    </form>
+    <h2>Result</h2>
+    {% if result %} 
+    <div id='result'><p><img src="{{ result }}"></p></div>
+    {% endif %} 
+  </body>
+</html>
