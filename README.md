@@ -14,7 +14,7 @@ First of all you must be in directory, where this repository does.
 ### For Windows users:
 
 ```
-coming soon
+Run install.bat
 ```
 
 ### For Linux users:
@@ -31,9 +31,7 @@ If you complete installation above, you do not need to relauch this code everyti
 
 ### For Windows users:
 
-```
-coming soon
-```
+Run run.bat
 
 ### For Linux users:
 
