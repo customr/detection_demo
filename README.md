@@ -4,28 +4,44 @@
 
 This is my graduate project for [DLSchool](https://www.dlschool.org).
 It is a demo-server where you can make predictions of specific classes by neural detector YoloV3.
-Image as input, returns the same image with detection boxes on it.
+Image as input, return the same image with detection boxes on it.
 
 
 ## Installation
 
 First of all you must be in directory, where this repository does. 
 
+### For Windows users:
+
+```
+coming soon
+```
+
+### For Linux users:
+
 ```
 bash /your/path/to/detection_demo/install.sh
 ```
 
-That's all what you need for server installation. From this moment you can go to the local server 127.0.0.1:5000 and check detector by yourself!
+That's all what you need for server installation. From this moment you can go to the local server **127.0.0.1:5000** and check detector by yourself!
 
 ## Usage
 
 If you complete installation above, you do not need to relauch this code everytime. Installed server can be started like that:
 
+### For Windows users:
+
+```
+coming soon
+```
+
+### For Linux users:
+
 ```
 bash your/path/to/detection_demo/run.sh
 ```
 
-The server based on **127.0.0.1:5000**
+The server based on address **127.0.0.1:5000**
 
 ## Built With
 
@@ -41,7 +57,7 @@ The server based on **127.0.0.1:5000**
 ## Contacts
 
 * **Canvas** name - max_ship
-* **Slack**_name - moks
+* **Slack** name - moks
 * **shipicin_max@mail.ru**
 
 ## License

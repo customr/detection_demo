@@ -4,7 +4,7 @@ pip3 install -r requirements.txt
 export FLASK_ENV=flask_env
 cd app/src/yolov3
 bash model_weights/get_pretrained_coco_weights.sh 
-cd ../../../../
+cd ../../../
 rm requirements.txt
 rm install.sh
 
