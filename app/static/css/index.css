@@ -23,6 +23,10 @@ form {
   color: #fdd;
 }
 
+#result {
+  max-width: 1000px
+}
+
 @media (min-width: 481px) {
   #navigation {
     color: orange;
