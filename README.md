@@ -1,5 +1,5 @@
 # DETECTION_DEMO
-#### **!!!only for linux users or windows-professionals!!!**
+#### **only for linux users or windows-professionals**
 ## Getting Started
 
 This is my graduate project for [DLSchool](https://www.dlschool.org).

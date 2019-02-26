@@ -23,8 +23,10 @@ form {
   color: #fdd;
 }
 
-image {
+img {
   max-width: 1000px
+  min-width: 500px
+  max-height: 1000px
 }
 
 @media (min-width: 481px) {
