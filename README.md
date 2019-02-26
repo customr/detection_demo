@@ -17,7 +17,7 @@ cd /your/path/to/detection_demo
 ```
 After that you can run installation script:
 ```
-bash /install.sh
+bash install.sh
 ```
 
 That's all what you need for server installation. From this moment you can go to the local server **127.0.0.1:5000** and check detector by yourself!
@@ -31,7 +31,7 @@ If you have complete installation above, you do not need to relauch this code ev
 cd /your/path/to/detection_demo
 ```
 ```
-bash your/path/to/detection_demo/run.sh
+bash run.sh
 ```
 
 The server based on address **127.0.0.1:5000**
