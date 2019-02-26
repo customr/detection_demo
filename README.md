@@ -9,9 +9,8 @@ Image as input, return the same image with detection boxes on it.
 
 ## Installation
 
+#### For Linux users:
 First of all you must be in directory, where this repository does. 
-
-### For Linux users:
 ```
 cd /your/path/to/detection_demo
 ```
@@ -24,9 +23,9 @@ That's all what you need for server installation. From this moment you can go to
 
 ## Usage
 
+#### For Linux users:
 If you have complete installation above, you do not need to relauch this code everytime. Installed server can be started like that:
 
-### For Linux users:
 ```
 cd /your/path/to/detection_demo
 ```
