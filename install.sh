@@ -1,6 +1,6 @@
 python3 -m venv flask_env
 source flask_env/bin/activate
-echo install requirements. Please wait.
+echo Installing requirements. Please wait.
 pip3 install -q -r requirements.txt
 export FLASK_ENV=flask_env
 cd app/src/yolov3

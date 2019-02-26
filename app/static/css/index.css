@@ -16,14 +16,14 @@ a {
 }
 
 h1 {
-  line-height: 1em;
+  line-height: 1.1em;
 }
 
 form {
   color: #fdd;
 }
 
-#image {
+image {
   max-width: 1000px
 }
 

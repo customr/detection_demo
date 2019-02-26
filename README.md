@@ -1,5 +1,5 @@
 # DETECTION_DEMO
-
+#### **!!!only for linux users or windows-professionals!!!**
 ## Getting Started
 
 This is my graduate project for [DLSchool](https://www.dlschool.org).
@@ -21,7 +21,7 @@ That's all what you need for server installation. From this moment you can go to
 
 ## Usage
 
-If you complete installation above, you do not need to relauch this code everytime. Installed server can be started like that:
+If you have complete installation above, you do not need to relauch this code everytime. Installed server can be started like that:
 
 ### For Linux users:
 
